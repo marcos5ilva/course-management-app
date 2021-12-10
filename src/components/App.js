@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import HomePage from './home/HomePage';
 import AboutPage from './about/AboutPage';
