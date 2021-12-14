@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { loadCourses } from '../../redux/actions/courseActions';} from '../../redux/actions/courseActions';
-import {loadAuthors} from '../../redux/actions/authorActions';
+import { loadCourses } from '../../redux/actions/courseActions';
+import { loadAuthors } from '../../redux/actions/authorActions';
 import PropTypes from 'prop-types';
-import { useEffect } from 'react';
 
 const ManageCoursePage = ({ courses, authors, loadAuthors, loadCourses }) => {
 	useEffect(() => {
