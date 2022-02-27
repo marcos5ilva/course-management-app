@@ -65,18 +65,11 @@
     },
     {
       "id": 10,
-      "title": "Web Component Fundamentals",
-      "slug": "web-components-shadow-dom",
+      "title": "Testing",
       "authorId": 1,
-      "category": "HTML5"
-    },
-    {
-      "id": 11,
-      "title": "My Test Course",
-      "authorId": 1,
-      "category": "Just a test",
-      "createdAt": 1645916789435,
-      "slug": "my-test-course"
+      "category": "Test",
+      "createdAt": 1645973409021,
+      "slug": "testing"
     }
   ],
   "authors": [
