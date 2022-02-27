@@ -21,6 +21,13 @@ const CoursesPage = ({ actions, courses, authors }) => {
 	return (
 		<>
 			<h2>Courses</h2>
+			<button
+				style={{ marginBottom: 20 }}
+				className='btn btn-primary add-course'
+				onClick={() => {
+					console.log('redirect');
+				}}
+			></button>
 			<CourseList courses={courses} />
 		</>
 	);
